@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOD 3</title>
+</head>
+<body>
+    <h1>Profil Pribadi</h1>
+    <h2>Tentang Saya</h2>
+    Hai semua! Saya adalah mahasiswi S1 Teknologi Informasi dengan NIM 1303220051 kelas IT-46-02<br/><br/>
+    <table> <!--digunakan untuk membuat table, dibagian ini tabel digunakan untuk menampilakn foto profil dan vidio diri secara berdampingan-->
+        <tr>
+            <th align="mid">Foto Profil</th>
+            <th align="mid">Video Diri</th>
+        </tr>
+        <tr>
+            <td><img src="amelia.jpg" height="200"></td> <!--tag img digunakan untuk menyisipkan gambar ke dalam halaman web.-->
+            <td><video height="200" controls> <!--tag video digunakan untuk menyisipkan video di halaman web dan memberikan kontrol untuk memutar video. -->
+                <source src="amelia.mp4" type="video/mp4">
+            </video></td>
+        </tr>
+    </table>
+    <h2>Pengalaman</h2>
+    <table border="1" cellpadding="10" cellspacing="0" style="width: 100%;">
+        <tr> <!--tag ini untuk mendefinisikan baris dalam tabel, alasannya agar ditampilkan dalam baris terpisah agar data terlihat terorganisir-->
+            <th>Pengalaman</th> <!--tag th untuk mendefinisikan header dalam tabel, alasannya untuk memberikan judul pada kolom tabel-->
+            <th>Tahun</th>
+        </tr>
+        <tr>
+            <td>Intern at KOMINFO Tangerang</td> <!--tag ini mendefinisikan sel data dalam tabel, untuk menyusun data dalam format tabel yang rapi-->
+            <td>Juni - August 2024</td>
+        </tr>
+        <tr>
+            <td>Public Relations Staff Daily Executive Committe</td>
+            <td>March 2024 - Present</td>
+        </tr>
+        <tr>
+            <td>Head of Events Division Megabit</td>
+            <td>June - Sept 2024</td>
+        </tr>
+        <tr>
+            <td>Staff of Social Media Management</td>
+            <td>Jan 2024 - Present</td>
+        </tr>
+    </table>
+    <h3>Hubungi Saya</h3>
+    <form> <!--tag ini mendefinsikan form untuk mengirimkan data dari user ke server, digunakan untuk memungkinkan pengguna
+         memasukkan nama,email, dan masukan sebelum mengirim pesan-->
+        <div> 
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama">
+        </div>
+        <div>
+            <label for="gmail">Email:</label>
+            <input type="email" id="gmail" name="gmail"> <!--Tag ini digunakan untuk mengambil input dari pengguna, seperti teks, email, atau lainnya. 
+            Di sini digunakan untuk menangkap nama dan email pengguna, memungkinkan interaksi antara pengguna dan sistem. -->
+        </div>
+        <div>
+            <label for="masukan">Masukan:<br/></label>
+            <textarea id="masukan" name="masukan" rows="3" cols="50"></textarea>
+        </div> <!--tag ini Digunakan untuk mengelompokkan konten, seperti media sosial dan form input, sehingga layout halaman lebih terstruktur.-->
+        <button type="submit">Kirim Pesan</button> <!--Tag ini mendefinisikan tombol yang dapat digunakan untuk mengirimkan formulir atau 
+        melakukan tindakan tertentu. Tombol digunakan untuk mengirimkan data formulir yang diisi oleh pengguna.-->
+    </form>
+    <h3>Media Sosial</h3>
+    <div>
+        <a href="https://www.instagram.com/ameliaftnv" target="_blank">Instagram</a> <!--tag a digunakan untuk membuat hyperlink yang mengarahkan 
+        pengguna ke halaman web lain atau bagian lain dari halaman yang sama.-->
+        |
+        <a href="https://www.github.com/ameliaftnv" target="_blank">Github</a>
+        |
+        <a href="https://www.tiktok.com/@bershine_" target="_blank">Tiktok</a>
+    </div>
+</body>
+</html>
